@@ -1,7 +1,7 @@
 # 🌍 UpcDonat
 
 Bienvenue sur *UpcDonat*, un site web solidaire réalisé dans le cadre de mon projet universitaire.  
-Il vise à sensibiliser, mobiliser et encourager les dons pour aider les *enfants, **veuves*, et personnes vulnérables dans le besoin.
+Il vise à *sensibiliser, **mobiliser* et *encourager les dons* pour aider les enfants, veuves, et personnes vulnérables dans le besoin.
 
 ---
 
@@ -9,52 +9,97 @@ Il vise à sensibiliser, mobiliser et encourager les dons pour aider les *enfant
 
 > Créer une plateforme simple, claire, responsive et évolutive, pour présenter les actions sociales, faciliter les dons et favoriser l’engagement bénévole.
 
-Ce projet est conçu pour être *fonctionnel sans serveur*, avec une base HTML/CSS/JS solide.  
-La structure prévoit également l’intégration future :
-- d'une base de données
-- d’un système de paiement (API)
+Ce projet est conçu pour fonctionner *sans serveur* avec une base *HTML/CSS/JS* solide.  
+Il est également préparé pour intégrer à l’avenir :
+- ✅ Une base de données
+- ✅ Un système de paiement (via API)
 
 ---
 
 ## 🛠 Technologies utilisées
 
-- ✅ HTML5
-- ✅ CSS3 (main.css & index.css)
-- ✅ JavaScript (menu mobile, animations)
-- ✅ GitHub Pages (hébergement)
-- ✅ Google Fonts (Poppins)
-- ✅ Font Awesome (icônes)
+- HTML5  
+- CSS3 (main.css, index.css, about.css)  
+- JavaScript (menu mobile, animations)  
+- Font Awesome (icônes sociales)  
+- Google Fonts (Poppins)  
+- GitHub Pages (hébergement du site)
 
 ---
 
 ## 💡 Fonctionnalités du site
 
-- Interface responsive (PC, tablette, téléphone)
-- Menu de navigation avec menu burger sur mobile
-- Section d’accueil avec appel au don
-- Présentation des actions prioritaires
-- Pages : Nos actions, Faire un don, À propos, Contact
-- Formulaires de contact et engagement bénévole
-- Prêt à accueillir des fonctionnalités avancées (API, BDD)
+- ✅ Interface responsive (PC, tablette, téléphone)  
+- ✅ Menu de navigation avec menu burger sur mobile  
+- ✅ Section d’accueil avec appel au don  
+- ✅ Présentation des actions prioritaires  
+- ✅ Pages : Accueil, Nos actions, Faire un don, Types de don, À propos, Contact  
+- ✅ Formulaires simples de contact et de bénévolat  
+- ✅ Prêt à intégrer base de données + système de paiement  
+
 ---
+
+## 📁 Structure du projet
+projet-final-jeanne2007/
+│
+
+├── codebase/
+
+│   ├── css/
+
+│   ├── js/
+
+│   ├── images/
+
+│   └── *.html
+
+│
+
+├── docs/
+
+│   └── cahier-de-charge-upcdonat.docx
+
+│
+├── README.md
+
+├── .gitignore
+
+└── .gitattributes
+
+---
+
 ## 📌 Note importante
 
-> Le site fonctionne sans base de données ni API de paiement *pour le moment*.  
-> L’architecture est déjà préparée pour intégrer ces éléments ultérieurement.
+Le site fonctionne *sans base de données ni API de paiement pour le moment*.  
+L’architecture est cependant prête pour intégrer ces éléments ultérieurement.
+
 ---
+
 ## 🔗 Lien vers le site en ligne
 
-👉 [https://jeanne2007.github.io/UpcDonat-copie/]
+👉 [https://jeanne2007.github.io/UpcDonat-copie/](https://jeanne2007.github.io/UpcDonat-copie/)
+
 ---
+
 ## 👩🏽‍💻 Réalisé par
 
-* Ngbo Kambili Jeanne*  
-Étudiante en Sciences Informatiques( L1LMD/fasi).  
-Université Protestante au Congo-
+*Ngbo Kambili Jeanne*  
+Étudiante en Sciences Informatiques (L1 LMD / FASI)  
+Université Protestante au Congo (UPC)
+
+---
 
 ## 📩 Contact
 
-Tu peux me contacter via le formulaire du site, mon numéro WhatsApp, ou email ici si tu veux :
+📧 Email : jeannengbo3@gmail.com  
+📱 WhatsApp : +243 812 475 527  
 
-📧 Email : jeannengbo3@gmail.com
-📱 WhatsApp : +243 0812475527
+---
+
+## 📄 Cahier de charge
+
+📥 [Télécharger le cahier de charge ici](docs/cahier-de-charge-upcdonat.docx)
+
+---
+
+> Jeanne Ngbo Kambili tous droit réserve @ 2025
