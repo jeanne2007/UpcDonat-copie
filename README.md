@@ -98,7 +98,7 @@ Université Protestante au Congo (UPC)
 
 ## 📄 Cahier de charge
 
-📥 [Télécharger le cahier de charge ici](docs/cahier-de-charge-upcdonat.docx)
+📥 [Télécharger le cahier de charge ici]https://github.com/jeanne2007/UpcDonat/raw/master/docs/cahier-de-charges-upcdonat.docx
 
 ---
 
