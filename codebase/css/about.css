@@ -1,6 +1,6 @@
 /* Bannière Spécifique */
 .hero-about {
-    background: linear-gradient(rgba(93, 103, 147, 0.8), rgba(95, 87, 115, 0.8)), url('../../assets/images/action3.jpg') center/cover no-repeat;
+    background: linear-gradient(rgba(93, 103, 147, 0.8), rgba(95, 87, 115, 0.8)), url('../../codebase/images/action3.jpg') center/cover no-repeat;
     height: 50vh;
     display: flex;
     align-items: center;

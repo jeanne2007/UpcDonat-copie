@@ -1,6 +1,6 @@
 /* Bannière Spécifique */
 .hero-contact {
-    background: linear-gradient(rgba(99, 102, 115, 0.8), rgba(114, 109, 127, 0.8)), url('../../assets/images/action3.jpg') center/cover no-repeat;
+    background: linear-gradient(rgba(99, 102, 115, 0.8), rgba(114, 109, 127, 0.8)), url('../../codebase/images/action3.jpg') center/cover no-repeat;
     height: 50vh;
     display: flex;
     align-items: center;
@@ -17,7 +17,8 @@
 /* Section Contact */
 .contact-section {
     padding: 5rem 0;
-    background-color: #f8f9fa;
+  background-color: white;
+   
 }
 
 .contact-grid {
@@ -92,7 +93,7 @@
 }
 
 .btn-submit:hover {
-    background-color: #ff0676;
+    background-color: #441eb8;
 }
 
 .btn-submit i {

@@ -1,6 +1,6 @@
 /* Bannière Spécifique */
 .hero-don {
-    background: linear-gradient(rgba(94, 99, 124, 0.8), rgba(96, 83, 125, 0.8)), url('../../assets/images/action3.jpg') center/cover no-repeat;
+    background: linear-gradient(rgba(94, 99, 124, 0.8), rgba(96, 83, 125, 0.8)), url('../../codebase/images/action3.jpg') center/cover no-repeat;
     height: 50vh;
     display: flex;
     align-items: center;

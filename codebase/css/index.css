@@ -1,6 +1,6 @@
 /* Hero Section */
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/hero-bg.png') center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../../codebase/images/hero-bg.png') center/cover no-repeat;
     height: 90vh;
     display: flex;
     align-items: center;

@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Comment Aider | UpcDonat</title>
-    <link rel="stylesheet" href="../assets/css/main.css">
-    <link rel="stylesheet" href="../assets/css/comment-aider.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/comment-aider.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
@@ -20,13 +20,10 @@
                 <li><a href="faire-un-don.html">Faire un Don</a></li>
                 <li><a href="types-de-don.html">Types de Don</a></li>
                 <li><a href="comment-aider.html" class="active">Comment Aider ?</a></li>
-                <li><a href="devenir-benevole.html">Devenir Bénévole</a></li>
                 <li><a href="about.html">À Propos</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
-            <div class="burger">
-                <i class="fas fa-bars"></i>
-            </div>
+            <div class="burger"><i class="fas fa-bars"></i></div>
         </div>
     </nav>
 
@@ -45,9 +42,8 @@
             <div class="options-grid">
                 <!-- Option 1 -->
                 <div class="option-card">
-                 <div class="option-icon">
-                <div class="avatar" style="background-image: url('../assets/images/terrain.jpg');"></div>
-                        <i class="fas fa-heart"></i>
+                    <div class="option-icon">
+                        <div class="avatar" style="background-image: url('./images/terrain.jpg');"></div>
                     </div>
                     <h3>Devenir Bénévole</h3>
                     <p>Donnez de votre temps pour des missions concrètes sur le terrain</p>
@@ -57,8 +53,7 @@
                 <!-- Option 2 -->
                 <div class="option-card">
                     <div class="option-icon">
-                     <div class="avatar" style="background-image: url('../assets/images/reseau.jpg');"></div>
-                        <i class="fas fa-bullhorn"></i>
+                        <div class="avatar" style="background-image: url('./images/reseau.jpg');"></div>
                     </div>
                     <h3>Sensibiliser</h3>
                     <p>Relayez notre cause sur les réseaux sociaux et dans votre entourage</p>
@@ -72,8 +67,7 @@
                 <!-- Option 3 -->
                 <div class="option-card">
                     <div class="option-icon">
-                     <div class="avatar" style="background-image: url('../assets/images/partenaire.jpg');"></div>
-                        <i class="fas fa-handshake"></i>
+                        <div class="avatar" style="background-image: url('./images/partenaire.jpg');"></div>
                     </div>
                     <h3>Partenariats</h3>
                     <p>Impliquez votre école ou entreprise dans nos actions</p>
@@ -89,7 +83,7 @@
             <div class="form-container">
                 <h2><i class="fas fa-user-plus"></i> Formulaire d'Engagement</h2>
                 <p>Rejoignez notre équipe de bénévoles et faites la différence</p>
-                
+
                 <form id="helpForm">
                     <div class="form-row">
                         <div class="form-group">
@@ -101,12 +95,12 @@
                             <input type="email" id="email" name="email" required>
                         </div>
                     </div>
-                    
+
                     <div class="form-group">
                         <label for="phone">Téléphone</label>
                         <input type="tel" id="phone" name="phone">
                     </div>
-                    
+
                     <div class="form-group">
                         <label for="skills">Compétences/Formation</label>
                         <select id="skills" name="skills" multiple>
@@ -118,35 +112,26 @@
                         </select>
                         <small>Maintenez Ctrl pour sélection multiple</small>
                     </div>
-                    
+
                     <div class="form-group">
                         <label>Disponibilités*</label>
                         <div class="availability-grid">
-                            <label class="checkbox-label">
-                                <input type="checkbox" name="weekends"> Weekends
-                            </label>
-                            <label class="checkbox-label">
-                                <input type="checkbox" name="evenings"> Soirs (17h-20h)
-                            </label>
-                            <label class="checkbox-label">
-                                <input type="checkbox" name="vacations"> Vacances scolaires
-                            </label>
-                            <label class="checkbox-label">
-                                <input type="checkbox" name="flexible"> Flexible
-                            </label>
+                            <label class="checkbox-label"><input type="checkbox" name="weekends"> Weekends</label>
+                            <label class="checkbox-label"><input type="checkbox" name="evenings"> Soirs (17h-20h)</label>
+                            <label class="checkbox-label"><input type="checkbox" name="vacations"> Vacances scolaires</label>
+                            <label class="checkbox-label"><input type="checkbox" name="flexible"> Flexible</label>
                         </div>
                     </div>
-                    
+
                     <div class="form-group">
                         <label for="message">Motivation (optionnel)</label>
                         <textarea id="message" name="message" rows="4"></textarea>
                     </div>
-                    
+
                     <button type="submit" class="btn-submit">S'engager <i class="fas fa-paper-plane"></i></button>
                 </form>
             </div>
-            
-            <!-- Confirmation (cachée par défaut) -->
+
             <div id="confirmation" class="confirmation">
                 <i class="fas fa-check-circle"></i>
                 <h3>Merci pour votre engagement !</h3>
@@ -161,9 +146,8 @@
         <div class="container">
             <h2><i class="fas fa-quote-left"></i> Ils Nous Ont Rejoints</h2>
             <div class="testimonials-grid">
-                <!-- Témoignage 1 -->
                 <div class="testimonial-card">
-                    <div class="avatar" style="background-image: url('../assets/images/kit.jpg');"></div>
+                    <div class="avatar" style="background-image: url('./images/kit.jpg');"></div>
                     <div class="quote">
                         <p>"J'ai distribué des kits scolaires pendant 3 mois. Voir les sourires des enfants m'a changé à jamais."</p>
                         <div class="author">
@@ -172,10 +156,9 @@
                         </div>
                     </div>
                 </div>
-                
-                <!-- Témoignage 2 -->
+
                 <div class="testimonial-card">
-                    <div class="avatar" style="background-image: url('../assets/images/sk.jpg');"></div>
+                    <div class="avatar" style="background-image: url('./images/sk.jpg');"></div>
                     <div class="quote">
                         <p>"En tant qu'expert comptable, j'ai aidé à organiser la collecte de fonds. Une expérience très enrichissante !"</p>
                         <div class="author">
@@ -188,10 +171,10 @@
         </div>
     </section>
 
+    <!-- Footer -->
     <footer class="footer">
         <div class="container">
             <div class="footer-grid">
-                <!-- Colonne 1 -->
                 <div class="footer-col">
                     <h4>Solidarité Étudiante</h4>
                     <p>Plateforme de sensibilisation et de collecte de dons par les étudiants, pour les veuves et sans-abri.</p>
@@ -202,19 +185,17 @@
                         <a href="#"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
-                
-                <!-- Colonne 2 -->
+
                 <div class="footer-col">
                     <h4>Liens Utiles</h4>
                     <ul>
-                        <li><a href="pages/nos-actions.html">Nos Actions</a></li>
-                        <li><a href="pages/faire-un-don.html">Faire un Don</a></li>
-                        <li><a href="pages/devenir-benevole.html">Bénévolat</a></li>
-                        <li><a href="pages/about.html">Transparence</a></li>
+                        <li><a href="nos-actions.html">Nos Actions</a></li>
+                        <li><a href="faire-un-don.html">Faire un Don</a></li>
+                        <li><a href="devenir-benevole.html">Bénévolat</a></li>
+                        <li><a href="about.html">Transparence</a></li>
                     </ul>
                 </div>
-                
-                <!-- Colonne 3 -->
+
                 <div class="footer-col">
                     <h4>Contact</h4>
                     <ul>
@@ -223,8 +204,7 @@
                         <li><i class="fas fa-map-marker-alt"></i> Avenue de libération Lingwala, Kinshasa</li>
                     </ul>
                 </div>
-                
-                <!-- Colonne 4 -->
+
                 <div class="footer-col">
                     <h4>Newsletter</h4>
                     <p>Abonnez-vous pour suivre nos actions.</p>
@@ -234,7 +214,7 @@
                     </form>
                 </div>
             </div>
-            
+
             <div class="footer-bottom">
                 <p>&copy; 2025 Solidarité Étudiante (Upc Donat). Tous droits réservés.</p>
                 <div class="footer-links">
@@ -245,8 +225,7 @@
         </div>
     </footer>
 
-
-    <script src="../assets/js/comment-aider.js"></script>
-    <script src="../assets/js/script.js"></script>
+    <script src="./js/comment-aider.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 </html>
