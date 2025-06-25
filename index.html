@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UpcDonat</title>
+    <title>À Propos | UpcDonat</title>
     <link rel="stylesheet" href="codebase/css/main.css">
-    <link rel="stylesheet" href="codebase/css/index.css">
+    <link rel="stylesheet" href="codebase/css/about.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
@@ -20,7 +20,8 @@
                 <li><a href="faire-un-don.html">Faire un Don</a></li>
                 <li><a href="types-de-don.html">Types de Don</a></li>
                 <li><a href="comment-aider.html">Comment Aider ?</a></li>
-                <li><a href="about.html">À Propos</a></li>
+                <li><a href="devenir-benevole.html">Devenir Bénévole</a></li>
+                <li><a href="about.html" class="active">À Propos</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
             <div class="burger">
@@ -29,49 +30,125 @@
         </div>
     </nav>
 
-    <!-- Bannière Hero -->
-    <section class="hero">
+    <!-- Bannière -->
+    <section class="hero-about">
         <div class="container">
-            <h1>Aidez les enfants et veuves dans le besoin</h1>
-            <p>Votre don change des vies. Rejoignez notre mouvement étudiant solidaire.</p>
-            <a href="faire-un-don.html" class="btn">Faire un don <i class="fas fa-arrow-right"></i></a>
+            <h1>Notre Histoire et Valeurs</h1>
+            <p>Découvrez la passion qui anime notre mouvement étudiant</p>
         </div>
     </section>
 
-    <!-- Section Causes -->
-    <section class="causes">
+    <!-- Section Histoire -->
+    <section class="history">
         <div class="container">
-            <h2>Nos Causes Prioritaires</h2>
-            <div class="causes-grid">
-                <!-- Carte 1 -->
-                <div class="cause-card">
-                    <div class="cause-icon">
-                        <i class="fas fa-child"></i>
+            <div class="history-content">
+                <div class="history-text">
+                    <h2><i class="fas fa-book-open"></i> Notre Origine</h2>
+                    <p>Fondée en 2025 par une étudiante (jeanne Ngbo) de l'Université Protestante au Congo, UpcDonat est née d'un constat simple : des milliers d'enfants et veuves de Kinshasa vivent dans des conditions extrêmement précaires sans aide suffisante.</p>
+                    <p>Ce qui a commencé comme une initiative locale de collecte de vêtements et de fournitures scolaires est rapidement devenu un mouvement national grâce à l'engagement de centaines d'étudiants bénévoles.</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <strong>250+</strong>
+                            <span>Bénévoles actifs</span>
+                        </div>
+                        <div class="stat-item">
+                            <strong>15</strong>
+                            <span>Quartiers couverts</span>
+                        </div>
+                        <div class="stat-item">
+                            <strong>3K+</strong>
+                            <span>Bénéficiaires aidés</span>
+                        </div>
                     </div>
-                    <h3>Enfants Abandonnés</h3>
-                    <p>Offrez un toit et une éducation aux enfants sans famille.</p>
-                    <a href="nos-actions.html" class="btn-small">Découvrir</a>
                 </div>
+                <div class="history-image">
+                    <img src="codebase/images/equipe.jpg" alt="Équipe fondatrice UpcDonat">
+                </div>
+            </div>
+        </div>
+    </section>
 
-                <!-- Carte 2 -->
-                <div class="cause-card">
-                    <div class="cause-icon">
-                        <i class="fas fa-female"></i>
-                    </div>
-                    <h3>Soutien aux Veuves</h3>
-                    <p>Aidez les femmes seules à reconstruire leur vie.</p>
-                    <a href="nos-actions.html" class="btn-small">Découvrir</a>
+    <!-- Section Valeurs -->
+    <section class="values">
+        <div class="container">
+            <h2><i class="fas fa-heart"></i> Nos Valeurs</h2>
+            <div class="values-grid">
+                <div class="value-card">
+                    <div class="team-photo" style="background-image: url('codebase/images/benedicte.jpeg');"></div>
+                    <h3>Solidarité</h3>
+                    <p>Nous croyons en la force de la communauté étudiante pour soutenir les plus vulnérables.</p>
                 </div>
+                
+                <div class="value-card">
+                    <div class="team-photo" style="background-image: url('codebase/images/sk.jpg');"></div>
+                    <h3>Transparence</h3>
+                    <p>100% des dons sont redistribués et chaque action est documentée avec preuves.</p>
+                </div>
+                
+                <div class="value-card">
+                    <div class="team-photo" style="background-image: url('codebase/images/pkk.jpg');"></div>
+                    <h3>Innovation</h3>
+                    <p>Nous développons des solutions créatives adaptées aux réalités locales.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-                <!-- Carte 3 -->
-                <div class="cause-card">
-                    <div class="cause-icon">
-                        <i class="fas fa-book"></i>
+    <!-- Section Équipe -->
+    <section class="team">
+        <div class="container">
+            <h2><i class="fas fa-users"></i> Notre Équipe</h2>
+            <p class="subtitle">Des étudiants engagés venant de toutes les facultés</p>
+            
+            <div class="team-grid">
+                <div class="team-card">
+                    <div class="team-photo" style="background-image: url('codebase/images/jeanne.jpg');"></div>
+                    <h3>jeanne Ngbo</h3>
+                    <p class="role">Présidente Fondatrice</p>
+                    <p class="faculty">Faculté de science informatique</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
                     </div>
-                    <h3>Éducation pour Tous</h3>
-                    <p>Financez des kits scolaires et des bourses.</p>
-                    <a href="nos-actions.html" class="btn-small">Découvrir</a>
                 </div>
+                
+                <div class="team-card">
+                    <div class="team-photo" style="background-image: url('codebase/images/tinda.jpg');"></div>
+                    <h3>Meshula Tynda</h3>
+                    <p class="role">Trésorier</p>
+                    <p class="faculty">Faculté des Sciences Économiques</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="team-card">
+                    <div class="team-photo" style="background-image: url('codebase/images/exauce.jpg');"></div>
+                    <h3>Exauce Yayama</h3>
+                    <p class="role">Responsable Logistique</p>
+                    <p class="faculty">Faculté d'Ingénierie</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <div class="team-card">
+                    <div class="team-photo" style="background-image: url('codebase/images/k.jpg');"></div>
+                    <h3>Eminace Davilo</h3>
+                    <p class="role">Responsable Communication</p>
+                    <p class="faculty">Faculté des Lettres</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="cta-team">
+                <p>Rejoignez notre équipe de bénévoles !</p>
+                <a href="contact.html" class="btn">Postuler maintenant</a>
             </div>
         </div>
     </section>
@@ -80,7 +157,6 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-grid">
-                <!-- Colonne 1 -->
                 <div class="footer-col">
                     <h4>Solidarité Étudiante</h4>
                     <p>Plateforme de sensibilisation et de collecte de dons par les étudiants, pour les veuves et sans-abri.</p>
@@ -91,8 +167,7 @@
                         <a href="#"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
-
-                <!-- Colonne 2 -->
+                
                 <div class="footer-col">
                     <h4>Liens Utiles</h4>
                     <ul>
@@ -102,8 +177,7 @@
                         <li><a href="about.html">Transparence</a></li>
                     </ul>
                 </div>
-
-                <!-- Colonne 3 -->
+                
                 <div class="footer-col">
                     <h4>Contact</h4>
                     <ul>
@@ -112,8 +186,7 @@
                         <li><i class="fas fa-map-marker-alt"></i> Avenue de libération Lingwala, Kinshasa</li>
                     </ul>
                 </div>
-
-                <!-- Colonne 4 -->
+                
                 <div class="footer-col">
                     <h4>Newsletter</h4>
                     <p>Abonnez-vous pour suivre nos actions.</p>
@@ -123,7 +196,7 @@
                     </form>
                 </div>
             </div>
-
+            
             <div class="footer-bottom">
                 <p>&copy; 2025 Solidarité Étudiante (Upc Donat). Tous droits réservés.</p>
                 <div class="footer-links">
